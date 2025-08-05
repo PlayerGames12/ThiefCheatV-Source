@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C75D4EBA-1E54-47D3-9D9C-F38E710351AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ThiefCheatV</RootNamespace>
+    <AssemblyName>ThiefCheatV</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="aaems.cs" />
+    <Compile Include="aasd.cs" />
+    <Compile Include="ackbwe.cs" />
+    <Compile Include="aecn.cs" />
+    <Compile Include="aezq.cs" />
+    <Compile Include="agpgo.cs" />
+    <Compile Include="agvjp.cs" />
+    <Compile Include="ahzg.cs" />
+    <Compile Include="aitk.cs" />
+    <Compile Include="ajquw.cs" />
+    <Compile Include="amcv.cs" />
+    <Compile Include="amehk.cs" />
+    <Compile Include="ank.cs" />
+    <Compile Include="anu.cs" />
+    <Compile Include="anv.cs" />
+    <Compile Include="app.cs" />
+    <Compile Include="apqkks.cs" />
+    <Compile Include="aqiwxh.cs" />
+    <Compile Include="arltc.cs" />
+    <Compile Include="asct.cs" />
+    <Compile Include="asd.cs" />
+    <Compile Include="atg.cs" />
+    <Compile Include="atqflu.cs" />
+    <Compile Include="avlhtu.cs" />
+    <Compile Include="awpnm.cs" />
+    <Compile Include="axd.cs" />
+    <Compile Include="ayes.cs" />
+    <Compile Include="bails.cs" />
+    <Compile Include="basn.cs" />
+    <Compile Include="bawov.cs" />
+    <Compile Include="bbsd.cs" />
+    <Compile Include="bckdb.cs" />
+    <Compile Include="bdwne.cs" />
+    <Compile Include="bersaf.cs" />
+    <Compile Include="bezf.cs" />
+    <Compile Include="bhbxa.cs" />
+    <Compile Include="bhqbkn.cs" />
+    <Compile Include="bhsh.cs" />
+    <Compile Include="bimfi.cs" />
+    <Compile Include="biyn.cs" />
+    <Compile Include="bjs.cs" />
+    <Compile Include="bmwxi.cs" />
+    <Compile Include="bnff.cs" />
+    <Compile Include="bob.cs" />
+    <Compile Include="bowau.cs" />
+    <Compile Include="boxvg.cs" />
+    <Compile Include="boztgu.cs" />
+    <Compile Include="bpb.cs" />
+    <Compile Include="bpwxp.cs" />
+    <Compile Include="bqgnfn.cs" />
+    <Compile Include="brg.cs" />
+    <Compile Include="bsc.cs" />
+    <Compile Include="bup.cs" />
+    <Compile Include="bupgn.cs" />
+    <Compile Include="but.cs" />
+    <Compile Include="bweik.cs" />
+    <Compile Include="bxn.cs" />
+    <Compile Include="byjzsa.cs" />
+    <Compile Include="bypbcc.cs" />
+    <Compile Include="bzsyiw.cs" />
+    <Compile Include="cbdmyh.cs" />
+    <Compile Include="ccj.cs" />
+    <Compile Include="ccnxj.cs" />
+    <Compile Include="cderfo.cs" />
+    <Compile Include="cdmlqp.cs" />
+    <Compile Include="ceo.cs" />
+    <Compile Include="ceort.cs" />
+    <Compile Include="cfloi.cs" />
+    <Compile Include="cgoy.cs" />
+    <Compile Include="chgq.cs" />
+    <Compile Include="chm.cs" />
+    <Compile Include="ciwyaf.cs" />
+    <Compile Include="ciz.cs" />
+    <Compile Include="cko.cs" />
+    <Compile Include="cli.cs" />
+    <Compile Include="cls.cs" />
+    <Compile Include="cmaum.cs" />
+    <Compile Include="cmtbpy.cs" />
+    <Compile Include="cntt.cs" />
+    <Compile Include="cnu.cs" />
+    <Compile Include="com.cs" />
+    <Compile Include="con.cs" />
+    <Compile Include="copctz.cs" />
+    <Compile Include="cpl.cs" />
+    <Compile Include="cplf.cs" />
+    <Compile Include="cqqhvh.cs" />
+    <Compile Include="crnis.cs" />
+    <Compile Include="crtn.cs" />
+    <Compile Include="csjg.cs" />
+    <Compile Include="cver.cs" />
+    <Compile Include="cvn.cs" />
+    <Compile Include="cwbhm.cs" />
+    <Compile Include="cwi.cs" />
+    <Compile Include="cwkov.cs" />
+    <Compile Include="cwvd.cs" />
+    <Compile Include="cxgenl.cs" />
+    <Compile Include="dafsmw.cs" />
+    <Compile Include="dbdfi.cs" />
+    <Compile Include="dbif.cs" />
+    <Compile Include="dbjwwz.cs" />
+    <Compile Include="dceu.cs" />
+    <Compile Include="ddov.cs" />
+    <Compile Include="ddr.cs" />
+    <Compile Include="degoc.cs" />
+    <Compile Include="dela.cs" />
+    <Compile Include="dgxau.cs" />
+    <Compile Include="dhxf.cs" />
+    <Compile Include="diibnj.cs" />
+    <Compile Include="diud.cs" />
+    <Compile Include="diwbqc.cs" />
+    <Compile Include="djayl.cs" />
+    <Compile Include="djcvqs.cs" />
+    <Compile Include="djxyfm.cs" />
+    <Compile Include="dkapn.cs" />
+    <Compile Include="dle.cs" />
+    <Compile Include="dltvrk.cs" />
+    <Compile Include="dmzqfj.cs" />
+    <Compile Include="dnyc.cs" />
+    <Compile Include="don.cs" />
+    <Compile Include="dpnc.cs" />
+    <Compile Include="drwjg.cs" />
+    <Compile Include="dseim.cs" />
+    <Compile Include="dtixpy.cs" />
+    <Compile Include="dtouz.cs" />
+    <Compile Include="dudjx.cs" />
+    <Compile Include="dxoo.cs" />
+    <Compile Include="dxybrp.cs" />
+    <Compile Include="dyf.cs" />
+    <Compile Include="dyfezx.cs" />
+    <Compile Include="dzioka.cs" />
+    <Compile Include="ebqwjb.cs" />
+    <Compile Include="ebuadd.cs" />
+    <Compile Include="eczge.cs" />
+    <Compile Include="edws.cs" />
+    <Compile Include="eeten.cs" />
+    <Compile Include="efhpp.cs" />
+    <Compile Include="efrp.cs" />
+    <Compile Include="egmoro.cs" />
+    <Compile Include="ehnpqg.cs" />
+    <Compile Include="ehz.cs" />
+    <Compile Include="ejq.cs" />
+    <Compile Include="ekte.cs" />
+    <Compile Include="eltlxv.cs" />
+    <Compile Include="emayqw.cs" />
+    <Compile Include="enjtot.cs" />
+    <Compile Include="enmo.cs" />
+    <Compile Include="enunw.cs" />
+    <Compile Include="env.cs" />
+    <Compile Include="eqke.cs" />
+    <Compile Include="eqo.cs" />
+    <Compile Include="ese.cs" />
+    <Compile Include="eseb.cs" />
+    <Compile Include="essskc.cs" />
+    <Compile Include="etk.cs" />
+    <Compile Include="etzlr.cs" />
+    <Compile Include="evmtl.cs" />
+    <Compile Include="ewo.cs" />
+    <Compile Include="exr.cs" />
+    <Compile Include="exv.cs" />
+    <Compile Include="exzdc.cs" />
+    <Compile Include="eyo.cs" />
+    <Compile Include="eyp.cs" />
+    <Compile Include="ezoe.cs" />
+    <Compile Include="fav.cs" />
+    <Compile Include="fbqc.cs" />
+    <Compile Include="fbwk.cs" />
+    <Compile Include="fdnokz.cs" />
+    <Compile Include="fdsh.cs" />
+    <Compile Include="fdwlr.cs" />
+    <Compile Include="feff.cs" />
+    <Compile Include="fepm.cs" />
+    <Compile Include="fequzv.cs" />
+    <Compile Include="fgj.cs" />
+    <Compile Include="fgr.cs" />
+    <Compile Include="fhk.cs" />
+    <Compile Include="fhut.cs" />
+    <Compile Include="fizs.cs" />
+    <Compile Include="fjhj.cs" />
+    <Compile Include="fjppj.cs" />
+    <Compile Include="fkntjt.cs" />
+    <Compile Include="fkojwj.cs" />
+    <Compile Include="fkqzxw.cs" />
+    <Compile Include="fmibhn.cs" />
+    <Compile Include="fmo.cs" />
+    <Compile Include="fndmp.cs" />
+    <Compile Include="fnsm.cs" />
+    <Compile Include="fou.cs" />
+    <Compile Include="fpeux.cs" />
+    <Compile Include="fpvfkc.cs" />
+    <Compile Include="fss.cs" />
+    <Compile Include="ftc.cs" />
+    <Compile Include="ftd.cs" />
+    <Compile Include="ftdv.cs" />
+    <Compile Include="fuf.cs" />
+    <Compile Include="fvnqqf.cs" />
+    <Compile Include="fvwand.cs" />
+    <Compile Include="fwv.cs" />
+    <Compile Include="fxkzeu.cs" />
+    <Compile Include="fxoc.cs" />
+    <Compile Include="fxszmw.cs" />
+    <Compile Include="fxwr.cs" />
+    <Compile Include="fyhy.cs" />
+    <Compile Include="fykb.cs" />
+    <Compile Include="fzgerd.cs" />
+    <Compile Include="gajau.cs" />
+    <Compile Include="gbitqj.cs" />
+    <Compile Include="gcjlvx.cs" />
+    <Compile Include="gcm.cs" />
+    <Compile Include="gdfrq.cs" />
+    <Compile Include="gea.cs" />
+    <Compile Include="gfdggw.cs" />
+    <Compile Include="gfk.cs" />
+    <Compile Include="ghrj.cs" />
+    <Compile Include="gihmdc.cs" />
+    <Compile Include="gks.cs" />
+    <Compile Include="gmacuv.cs" />
+    <Compile Include="gnffd.cs" />
+    <Compile Include="gnlylk.cs" />
+    <Compile Include="gpuh.cs" />
+    <Compile Include="gpzgpw.cs" />
+    <Compile Include="gqhdsw.cs" />
+    <Compile Include="gtgv.cs" />
+    <Compile Include="gumyq.cs" />
+    <Compile Include="guwra.cs" />
+    <Compile Include="guzos.cs" />
+    <Compile Include="gvu.cs" />
+    <Compile Include="gyi.cs" />
+    <Compile Include="gypa.cs" />
+    <Compile Include="gyywk.cs" />
+    <Compile Include="harn.cs" />
+    <Compile Include="hayrwe.cs" />
+    <Compile Include="hbb.cs" />
+    <Compile Include="hbfvfk.cs" />
+    <Compile Include="hbh.cs" />
+    <Compile Include="heapeo.cs" />
+    <Compile Include="hebbr.cs" />
+    <Compile Include="hedi.cs" />
+    <Compile Include="hgvxl.cs" />
+    <Compile Include="hhcgze.cs" />
+    <Compile Include="hjrp.cs" />
+    <Compile Include="hju.cs" />
+    <Compile Include="hkon.cs" />
+    <Compile Include="hku.cs" />
+    <Compile Include="hlfpe.cs" />
+    <Compile Include="hlq.cs" />
+    <Compile Include="hlu.cs" />
+    <Compile Include="hmk.cs" />
+    <Compile Include="hndhn.cs" />
+    <Compile Include="hnqfn.cs" />
+    <Compile Include="hnv.cs" />
+    <Compile Include="hqgzm.cs" />
+    <Compile Include="hqnfas.cs" />
+    <Compile Include="hsab.cs" />
+    <Compile Include="hsy.cs" />
+    <Compile Include="htez.cs" />
+    <Compile Include="hvf.cs" />
+    <Compile Include="hvmurz.cs" />
+    <Compile Include="hvrus.cs" />
+    <Compile Include="hwh.cs" />
+    <Compile Include="hwlylm.cs" />
+    <Compile Include="hww.cs" />
+    <Compile Include="hzcpt.cs" />
+    <Compile Include="hzg.cs" />
+    <Compile Include="hzvapx.cs" />
+    <Compile Include="iaixy.cs" />
+    <Compile Include="iatwb.cs" />
+    <Compile Include="ibv.cs" />
+    <Compile Include="icmzdf.cs" />
+    <Compile Include="igsihd.cs" />
+    <Compile Include="iih.cs" />
+    <Compile Include="ijadh.cs" />
+    <Compile Include="ijbo.cs" />
+    <Compile Include="ikepz.cs" />
+    <Compile Include="ikl.cs" />
+    <Compile Include="ilo.cs" />
+    <Compile Include="iorar.cs" />
+    <Compile Include="ipe.cs" />
+    <Compile Include="ipg.cs" />
+    <Compile Include="ipxp.cs" />
+    <Compile Include="iqdz.cs" />
+    <Compile Include="iqqzze.cs" />
+    <Compile Include="iqyrug.cs" />
+    <Compile Include="irjox.cs" />
+    <Compile Include="isbt.cs" />
+    <Compile Include="ish.cs" />
+    <Compile Include="isikjd.cs" />
+    <Compile Include="iso.cs" />
+    <Compile Include="isyb.cs" />
+    <Compile Include="itbzl.cs" />
+    <Compile Include="iugeub.cs" />
+    <Compile Include="iuvz.cs" />
+    <Compile Include="ivjhp.cs" />
+    <Compile Include="iwngve.cs" />
+    <Compile Include="iwuxts.cs" />
+    <Compile Include="iwxwaw.cs" />
+    <Compile Include="ixxzds.cs" />
+    <Compile Include="iyl.cs" />
+    <Compile Include="iyzk.cs" />
+    <Compile Include="jatmiq.cs" />
+    <Compile Include="jbhbif.cs" />
+    <Compile Include="jbowc.cs" />
+    <Compile Include="jcpqtn.cs" />
+    <Compile Include="jec.cs" />
+    <Compile Include="jff.cs" />
+    <Compile Include="jgngl.cs" />
+    <Compile Include="jgup.cs" />
+    <Compile Include="jhb.cs" />
+    <Compile Include="jhhu.cs" />
+    <Compile Include="jhyw.cs" />
+    <Compile Include="jijfpg.cs" />
+    <Compile Include="jjl.cs" />
+    <Compile Include="jjm.cs" />
+    <Compile Include="jmchd.cs" />
+    <Compile Include="jmtjx.cs" />
+    <Compile Include="jpvaq.cs" />
+    <Compile Include="jsoc.cs" />
+    <Compile Include="jspp.cs" />
+    <Compile Include="jtimv.cs" />
+    <Compile Include="jues.cs" />
+    <Compile Include="juwh.cs" />
+    <Compile Include="jvob.cs" />
+    <Compile Include="jwnj.cs" />
+    <Compile Include="jwwgi.cs" />
+    <Compile Include="jxh.cs" />
+    <Compile Include="jysyr.cs" />
+    <Compile Include="jzjoyt.cs" />
+    <Compile Include="kckd.cs" />
+    <Compile Include="kdktdg.cs" />
+    <Compile Include="kel.cs" />
+    <Compile Include="kewzqd.cs" />
+    <Compile Include="kft.cs" />
+    <Compile Include="kjew.cs" />
+    <Compile Include="kkgi.cs" />
+    <Compile Include="kks.cs" />
+    <Compile Include="knim.cs" />
+    <Compile Include="knqoyy.cs" />
+    <Compile Include="kntt.cs" />
+    <Compile Include="kqp.cs" />
+    <Compile Include="krqm.cs" />
+    <Compile Include="kueld.cs" />
+    <Compile Include="kwdgb.cs" />
+    <Compile Include="kwgeii.cs" />
+    <Compile Include="kwlbt.cs" />
+    <Compile Include="kwqto.cs" />
+    <Compile Include="kwy.cs" />
+    <Compile Include="kxz.cs" />
+    <Compile Include="kydu.cs" />
+    <Compile Include="kyf.cs" />
+    <Compile Include="kzfr.cs" />
+    <Compile Include="laicfv.cs" />
+    <Compile Include="lazhq.cs" />
+    <Compile Include="lcrmfw.cs" />
+    <Compile Include="ldg.cs" />
+    <Compile Include="ldhd.cs" />
+    <Compile Include="leaet.cs" />
+    <Compile Include="lehrkl.cs" />
+    <Compile Include="leu.cs" />
+    <Compile Include="lfdzb.cs" />
+    <Compile Include="lfm.cs" />
+    <Compile Include="lgoeec.cs" />
+    <Compile Include="liap.cs" />
+    <Compile Include="ljaytu.cs" />
+    <Compile Include="ljd.cs" />
+    <Compile Include="lje.cs" />
+    <Compile Include="lln.cs" />
+    <Compile Include="llsx.cs" />
+    <Compile Include="lmeuns.cs" />
+    <Compile Include="lmppa.cs" />
+    <Compile Include="lnzpgv.cs" />
+    <Compile Include="Loader.cs" />
+    <Compile Include="lodeyp.cs" />
+    <Compile Include="lpqzsq.cs" />
+    <Compile Include="lsnwl.cs" />
+    <Compile Include="lts.cs" />
+    <Compile Include="luaj.cs" />
+    <Compile Include="lueam.cs" />
+    <Compile Include="luo.cs" />
+    <Compile Include="lvdy.cs" />
+    <Compile Include="lvgg.cs" />
+    <Compile Include="lws.cs" />
+    <Compile Include="lzy.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="maydu.cs" />
+    <Compile Include="mca.cs" />
+    <Compile Include="mcqo.cs" />
+    <Compile Include="medwt.cs" />
+    <Compile Include="meil.cs" />
+    <Compile Include="melzba.cs" />
+    <Compile Include="mfrmf.cs" />
+    <Compile Include="mgimna.cs" />
+    <Compile Include="mham.cs" />
+    <Compile Include="mhji.cs" />
+    <Compile Include="miky.cs" />
+    <Compile Include="mimd.cs" />
+    <Compile Include="mite.cs" />
+    <Compile Include="miulij.cs" />
+    <Compile Include="mivkr.cs" />
+    <Compile Include="mjctos.cs" />
+    <Compile Include="mlgp.cs" />
+    <Compile Include="mlpdbu.cs" />
+    <Compile Include="mpknjn.cs" />
+    <Compile Include="mpo.cs" />
+    <Compile Include="mqdk.cs" />
+    <Compile Include="msbie.cs" />
+    <Compile Include="mvmqkr.cs" />
+    <Compile Include="mwhkkt.cs" />
+    <Compile Include="mwsgdq.cs" />
+    <Compile Include="mwwqx.cs" />
+    <Compile Include="mxotc.cs" />
+    <Compile Include="myi.cs" />
+    <Compile Include="myp.cs" />
+    <Compile Include="myqxs.cs" />
+    <Compile Include="mziwqf.cs" />
+    <Compile Include="mzqgqq.cs" />
+    <Compile Include="nanlqt.cs" />
+    <Compile Include="nbcac.cs" />
+    <Compile Include="nbl.cs" />
+    <Compile Include="nbtmi.cs" />
+    <Compile Include="ncc.cs" />
+    <Compile Include="ncf.cs" />
+    <Compile Include="ncpm.cs" />
+    <Compile Include="ndc.cs" />
+    <Compile Include="ndcc.cs" />
+    <Compile Include="ndx.cs" />
+    <Compile Include="nfgrz.cs" />
+    <Compile Include="nfomrr.cs" />
+    <Compile Include="nfow.cs" />
+    <Compile Include="ngr.cs" />
+    <Compile Include="nhbeo.cs" />
+    <Compile Include="njvl.cs" />
+    <Compile Include="nkhtya.cs" />
+    <Compile Include="nkntc.cs" />
+    <Compile Include="nkwxpb.cs" />
+    <Compile Include="nned.cs" />
+    <Compile Include="nntcvb.cs" />
+    <Compile Include="now.cs" />
+    <Compile Include="nowd.cs" />
+    <Compile Include="noxq.cs" />
+    <Compile Include="npbz.cs" />
+    <Compile Include="nrsoxb.cs" />
+    <Compile Include="nshu.cs" />
+    <Compile Include="nue.cs" />
+    <Compile Include="nvb.cs" />
+    <Compile Include="nvh.cs" />
+    <Compile Include="nvhps.cs" />
+    <Compile Include="nvn.cs" />
+    <Compile Include="nwic.cs" />
+    <Compile Include="nzqw.cs" />
+    <Compile Include="obx.cs" />
+    <Compile Include="ochbv.cs" />
+    <Compile Include="ocno.cs" />
+    <Compile Include="odq.cs" />
+    <Compile Include="ohmdqn.cs" />
+    <Compile Include="ohorui.cs" />
+    <Compile Include="ohuwnz.cs" />
+    <Compile Include="ohwcpb.cs" />
+    <Compile Include="oiciem.cs" />
+    <Compile Include="ojic.cs" />
+    <Compile Include="okafe.cs" />
+    <Compile Include="olhue.cs" />
+    <Compile Include="olich.cs" />
+    <Compile Include="omcxj.cs" />
+    <Compile Include="omdvrg.cs" />
+    <Compile Include="omyqlp.cs" />
+    <Compile Include="omzje.cs" />
+    <Compile Include="ondjd.cs" />
+    <Compile Include="ongb.cs" />
+    <Compile Include="oqctsr.cs" />
+    <Compile Include="oqdrj.cs" />
+    <Compile Include="oqjtm.cs" />
+    <Compile Include="oqtoba.cs" />
+    <Compile Include="oqyr.cs" />
+    <Compile Include="osrde.cs" />
+    <Compile Include="ouhj.cs" />
+    <Compile Include="oumqvq.cs" />
+    <Compile Include="ouryi.cs" />
+    <Compile Include="ovjv.cs" />
+    <Compile Include="ovlk.cs" />
+    <Compile Include="owthq.cs" />
+    <Compile Include="oxks.cs" />
+    <Compile Include="oxtzz.cs" />
+    <Compile Include="oyhgh.cs" />
+    <Compile Include="oyizh.cs" />
+    <Compile Include="oyjwz.cs" />
+    <Compile Include="pbl.cs" />
+    <Compile Include="pbsymx.cs" />
+    <Compile Include="pco.cs" />
+    <Compile Include="pdb.cs" />
+    <Compile Include="pfwm.cs" />
+    <Compile Include="phkodk.cs" />
+    <Compile Include="piy.cs" />
+    <Compile Include="pjisa.cs" />
+    <Compile Include="pjo.cs" />
+    <Compile Include="pjtd.cs" />
+    <Compile Include="pkkkl.cs" />
+    <Compile Include="plj.cs" />
+    <Compile Include="pmilcn.cs" />
+    <Compile Include="poo.cs" />
+    <Compile Include="pqj.cs" />
+    <Compile Include="pqnuws.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="psf.cs" />
+    <Compile Include="ptp.cs" />
+    <Compile Include="pvl.cs" />
+    <Compile Include="pwwszc.cs" />
+    <Compile Include="qal.cs" />
+    <Compile Include="qavgm.cs" />
+    <Compile Include="qayos.cs" />
+    <Compile Include="qbipym.cs" />
+    <Compile Include="qcahz.cs" />
+    <Compile Include="qcq.cs" />
+    <Compile Include="qcxcy.cs" />
+    <Compile Include="qdglv.cs" />
+    <Compile Include="qdw.cs" />
+    <Compile Include="qee.cs" />
+    <Compile Include="qgtmg.cs" />
+    <Compile Include="qgy.cs" />
+    <Compile Include="qib.cs" />
+    <Compile Include="qkmd.cs" />
+    <Compile Include="qksnd.cs" />
+    <Compile Include="qlurg.cs" />
+    <Compile Include="qlvl.cs" />
+    <Compile Include="qmavqf.cs" />
+    <Compile Include="qmozv.cs" />
+    <Compile Include="qoahk.cs" />
+    <Compile Include="qojys.cs" />
+    <Compile Include="qoqgp.cs" />
+    <Compile Include="qpads.cs" />
+    <Compile Include="qpv.cs" />
+    <Compile Include="qrw.cs" />
+    <Compile Include="qsodpy.cs" />
+    <Compile Include="qtth.cs" />
+    <Compile Include="qugwx.cs" />
+    <Compile Include="qxg.cs" />
+    <Compile Include="rbuuso.cs" />
+    <Compile Include="rch.cs" />
+    <Compile Include="rdxvnu.cs" />
+    <Compile Include="rejxkf.cs" />
+    <Compile Include="rfd.cs" />
+    <Compile Include="rfp.cs" />
+    <Compile Include="rfps.cs" />
+    <Compile Include="rgn.cs" />
+    <Compile Include="rgp.cs" />
+    <Compile Include="rhve.cs" />
+    <Compile Include="ridl.cs" />
+    <Compile Include="rkeyvv.cs" />
+    <Compile Include="rmbea.cs" />
+    <Compile Include="rohyyc.cs" />
+    <Compile Include="rpezn.cs" />
+    <Compile Include="rqnnj.cs" />
+    <Compile Include="rqvqxp.cs" />
+    <Compile Include="rsg.cs" />
+    <Compile Include="rsxiqm.cs" />
+    <Compile Include="rtcuae.cs" />
+    <Compile Include="ruh.cs" />
+    <Compile Include="rvkpc.cs" />
+    <Compile Include="rwn.cs" />
+    <Compile Include="rxyf.cs" />
+    <Compile Include="rymgso.cs" />
+    <Compile Include="ryoad.cs" />
+    <Compile Include="rzgywp.cs" />
+    <Compile Include="rzif.cs" />
+    <Compile Include="sae.cs" />
+    <Compile Include="sao.cs" />
+    <Compile Include="sbahr.cs" />
+    <Compile Include="sckpdl.cs" />
+    <Compile Include="scl.cs" />
+    <Compile Include="sdbj.cs" />
+    <Compile Include="sdt.cs" />
+    <Compile Include="sejuf.cs" />
+    <Compile Include="seln.cs" />
+    <Compile Include="sexyd.cs" />
+    <Compile Include="sgfdpv.cs" />
+    <Compile Include="sgqcj.cs" />
+    <Compile Include="shtcp.cs" />
+    <Compile Include="shxcb.cs" />
+    <Compile Include="shxdh.cs" />
+    <Compile Include="sira.cs" />
+    <Compile Include="sjwrxl.cs" />
+    <Compile Include="skq.cs" />
+    <Compile Include="slja.cs" />
+    <Compile Include="smaope.cs" />
+    <Compile Include="snjodg.cs" />
+    <Compile Include="snouhz.cs" />
+    <Compile Include="soq.cs" />
+    <Compile Include="spih.cs" />
+    <Compile Include="srd.cs" />
+    <Compile Include="srhr.cs" />
+    <Compile Include="srpnc.cs" />
+    <Compile Include="sslv.cs" />
+    <Compile Include="ssy.cs" />
+    <Compile Include="suvnf.cs" />
+    <Compile Include="swmvzn.cs" />
+    <Compile Include="swva.cs" />
+    <Compile Include="syv.cs" />
+    <Compile Include="syygt.cs" />
+    <Compile Include="szl.cs" />
+    <Compile Include="szn.cs" />
+    <Compile Include="tafyc.cs" />
+    <Compile Include="taqzgk.cs" />
+    <Compile Include="tda.cs" />
+    <Compile Include="tde.cs" />
+    <Compile Include="tdkdab.cs" />
+    <Compile Include="tdttn.cs" />
+    <Compile Include="tfvq.cs" />
+    <Compile Include="tgp.cs" />
+    <Compile Include="tiacf.cs" />
+    <Compile Include="timzmf.cs" />
+    <Compile Include="tjgmmo.cs" />
+    <Compile Include="tjtkar.cs" />
+    <Compile Include="tko.cs" />
+    <Compile Include="tkrpwd.cs" />
+    <Compile Include="tlwef.cs" />
+    <Compile Include="tmds.cs" />
+    <Compile Include="tmtn.cs" />
+    <Compile Include="tnqorm.cs" />
+    <Compile Include="towjbe.cs" />
+    <Compile Include="tpg.cs" />
+    <Compile Include="tqlb.cs" />
+    <Compile Include="trjpv.cs" />
+    <Compile Include="trki.cs" />
+    <Compile Include="tsb.cs" />
+    <Compile Include="tshpd.cs" />
+    <Compile Include="tst.cs" />
+    <Compile Include="ttghem.cs" />
+    <Compile Include="ttnvi.cs" />
+    <Compile Include="tugi.cs" />
+    <Compile Include="tuq.cs" />
+    <Compile Include="tvkylu.cs" />
+    <Compile Include="tws.cs" />
+    <Compile Include="twypv.cs" />
+    <Compile Include="txepdj.cs" />
+    <Compile Include="txggba.cs" />
+    <Compile Include="uay.cs" />
+    <Compile Include="uduun.cs" />
+    <Compile Include="ueb.cs" />
+    <Compile Include="ufemvr.cs" />
+    <Compile Include="ufepf.cs" />
+    <Compile Include="ufgyx.cs" />
+    <Compile Include="ufklo.cs" />
+    <Compile Include="ukajos.cs" />
+    <Compile Include="ulians.cs" />
+    <Compile Include="uob.cs" />
+    <Compile Include="upflad.cs" />
+    <Compile Include="uqhmpy.cs" />
+    <Compile Include="uqoip.cs" />
+    <Compile Include="urccuv.cs" />
+    <Compile Include="uspwwj.cs" />
+    <Compile Include="usqrx.cs" />
+    <Compile Include="utjb.cs" />
+    <Compile Include="uuq.cs" />
+    <Compile Include="uva.cs" />
+    <Compile Include="uvqgoy.cs" />
+    <Compile Include="uyme.cs" />
+    <Compile Include="uyykeq.cs" />
+    <Compile Include="uyyq.cs" />
+    <Compile Include="uzb.cs" />
+    <Compile Include="vaovio.cs" />
+    <Compile Include="vbf.cs" />
+    <Compile Include="vbwq.cs" />
+    <Compile Include="vbzj.cs" />
+    <Compile Include="veu.cs" />
+    <Compile Include="vgpr.cs" />
+    <Compile Include="vgtlg.cs" />
+    <Compile Include="vhcfg.cs" />
+    <Compile Include="vhf.cs" />
+    <Compile Include="vhk.cs" />
+    <Compile Include="vhkg.cs" />
+    <Compile Include="vhrwcn.cs" />
+    <Compile Include="vii.cs" />
+    <Compile Include="vjqp.cs" />
+    <Compile Include="vlcj.cs" />
+    <Compile Include="vljpy.cs" />
+    <Compile Include="vlqv.cs" />
+    <Compile Include="vlvjko.cs" />
+    <Compile Include="vlx.cs" />
+    <Compile Include="vmsdv.cs" />
+    <Compile Include="vpstgk.cs" />
+    <Compile Include="vqd.cs" />
+    <Compile Include="vrnwmr.cs" />
+    <Compile Include="vrrwb.cs" />
+    <Compile Include="vuperw.cs" />
+    <Compile Include="vuuvsc.cs" />
+    <Compile Include="vuxl.cs" />
+    <Compile Include="vuymsg.cs" />
+    <Compile Include="vygq.cs" />
+    <Compile Include="vzgpvh.cs" />
+    <Compile Include="vzzu.cs" />
+    <Compile Include="wapcw.cs" />
+    <Compile Include="wauna.cs" />
+    <Compile Include="way.cs" />
+    <Compile Include="wcddh.cs" />
+    <Compile Include="wdf.cs" />
+    <Compile Include="wdmsv.cs" />
+    <Compile Include="wds.cs" />
+    <Compile Include="wgfc.cs" />
+    <Compile Include="wjava.cs" />
+    <Compile Include="wmc.cs" />
+    <Compile Include="wnrbp.cs" />
+    <Compile Include="wplif.cs" />
+    <Compile Include="wpxq.cs" />
+    <Compile Include="wpzmp.cs" />
+    <Compile Include="wrn.cs" />
+    <Compile Include="wscz.cs" />
+    <Compile Include="wtlfg.cs" />
+    <Compile Include="wveii.cs" />
+    <Compile Include="wwrfsc.cs" />
+    <Compile Include="wxgsw.cs" />
+    <Compile Include="wyco.cs" />
+    <Compile Include="wysep.cs" />
+    <Compile Include="wzgixd.cs" />
+    <Compile Include="wzixh.cs" />
+    <Compile Include="wzsh.cs" />
+    <Compile Include="xaec.cs" />
+    <Compile Include="xaqn.cs" />
+    <Compile Include="xatiz.cs" />
+    <Compile Include="xbfb.cs" />
+    <Compile Include="xbh.cs" />
+    <Compile Include="xcefd.cs" />
+    <Compile Include="xcsdqy.cs" />
+    <Compile Include="xcwzs.cs" />
+    <Compile Include="xdflfl.cs" />
+    <Compile Include="xea.cs" />
+    <Compile Include="xfo.cs" />
+    <Compile Include="xibnd.cs" />
+    <Compile Include="xjvx.cs" />
+    <Compile Include="xmiffa.cs" />
+    <Compile Include="xmms.cs" />
+    <Compile Include="xnweqk.cs" />
+    <Compile Include="xpb.cs" />
+    <Compile Include="xpjv.cs" />
+    <Compile Include="xqo.cs" />
+    <Compile Include="xrlbl.cs" />
+    <Compile Include="xsar.cs" />
+    <Compile Include="xsnx.cs" />
+    <Compile Include="xsqw.cs" />
+    <Compile Include="xtopc.cs" />
+    <Compile Include="xtsau.cs" />
+    <Compile Include="xud.cs" />
+    <Compile Include="xuq.cs" />
+    <Compile Include="xuxrh.cs" />
+    <Compile Include="xve.cs" />
+    <Compile Include="xvp.cs" />
+    <Compile Include="xvpqv.cs" />
+    <Compile Include="xvt.cs" />
+    <Compile Include="xwru.cs" />
+    <Compile Include="xxoz.cs" />
+    <Compile Include="xxq.cs" />
+    <Compile Include="xyppah.cs" />
+    <Compile Include="xzwh.cs" />
+    <Compile Include="yagtw.cs" />
+    <Compile Include="yaq.cs" />
+    <Compile Include="yaqq.cs" />
+    <Compile Include="yaw.cs" />
+    <Compile Include="ybln.cs" />
+    <Compile Include="ycwf.cs" />
+    <Compile Include="ydgx.cs" />
+    <Compile Include="ydp.cs" />
+    <Compile Include="yeo.cs" />
+    <Compile Include="ygnrjv.cs" />
+    <Compile Include="yhvq.cs" />
+    <Compile Include="yiaofa.cs" />
+    <Compile Include="yjv.cs" />
+    <Compile Include="ylgiy.cs" />
+    <Compile Include="ymn.cs" />
+    <Compile Include="ymobi.cs" />
+    <Compile Include="ynuh.cs" />
+    <Compile Include="ypyghv.cs" />
+    <Compile Include="yra.cs" />
+    <Compile Include="yrbcg.cs" />
+    <Compile Include="ytver.cs" />
+    <Compile Include="yuwit.cs" />
+    <Compile Include="ywlzr.cs" />
+    <Compile Include="ywxc.cs" />
+    <Compile Include="yxvvgg.cs" />
+    <Compile Include="yybvfg.cs" />
+    <Compile Include="yyqqzd.cs" />
+    <Compile Include="yzz.cs" />
+    <Compile Include="zaxz.cs" />
+    <Compile Include="zbdnul.cs" />
+    <Compile Include="zbhmua.cs" />
+    <Compile Include="zbhmy.cs" />
+    <Compile Include="zblcn.cs" />
+    <Compile Include="zcpwu.cs" />
+    <Compile Include="zebpdo.cs" />
+    <Compile Include="zgiok.cs" />
+    <Compile Include="zgoyi.cs" />
+    <Compile Include="zhmi.cs" />
+    <Compile Include="zizx.cs" />
+    <Compile Include="zkjfv.cs" />
+    <Compile Include="zkr.cs" />
+    <Compile Include="zmg.cs" />
+    <Compile Include="zmiopw.cs" />
+    <Compile Include="zmsdgz.cs" />
+    <Compile Include="zmsk.cs" />
+    <Compile Include="znkx.cs" />
+    <Compile Include="znrd.cs" />
+    <Compile Include="zoqk.cs" />
+    <Compile Include="zrz.cs" />
+    <Compile Include="zuacw.cs" />
+    <Compile Include="zwk.cs" />
+    <Compile Include="zxekpz.cs" />
+    <Compile Include="zye.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.AI.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.MemoryProfiler">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.MemoryProfiler.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Analytics">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Services.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Configuration">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Services.Core.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Device">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Services.Core.Device.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Services.Core.Environments.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments.Internal">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Services.Core.Environments.Internal.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Internal">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Services.Core.Internal.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Networking">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Services.Core.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Registration">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Services.Core.Registration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Scheduler">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Services.Core.Scheduler.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Telemetry">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Services.Core.Telemetry.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Threading">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Services.Core.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.ContentLoadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.NVIDIAModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.NVIDIAModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.PropertiesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.AppleCore">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.Purchasing.AppleCore.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.AppleMacosStub">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.Purchasing.AppleMacosStub.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.AppleStub">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.Purchasing.AppleStub.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Codeless">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.Purchasing.Codeless.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityCore">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityStub">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Stores">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.Purchasing.Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.WinRTCore">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.Purchasing.WinRTCore.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.WinRTStub">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.Purchasing.WinRTStub.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>..\..\Games\Thief Simulator\thief_Data\Managed\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
