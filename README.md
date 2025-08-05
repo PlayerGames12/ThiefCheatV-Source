@@ -15,7 +15,7 @@ It adds an in-game menu to control money, level, items, time, police behavior, a
 Use any Mono injector.
 
 1. Launch the game
-2. Launch the injector
+2. Launch the injector (SharpMonoInjector)
 3. Select process: `thief.exe`
 4. Select assembly: `ThiefCheatV.dll`
 5. Namespace: `ThiefCheatV`  
